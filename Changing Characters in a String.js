@@ -28,9 +28,9 @@
 
 // Complete the code
 
-// var word = "Ocygen";
-// var newWord = word.replace('c','x')
-// console.log(newWord);
+var word = "Ocygen";
+var newWord = word.replace('c','x')
+console.log(newWord);
 
 // function Occurrence(str,letter)
 // {
@@ -62,24 +62,24 @@
 //     }
 // }
 
-function Occurrence(str, letter) {
-    if (typeof str !== 'string' || typeof letter !== 'string') {
-        console.log("Invalid input");
-        return;
-    }
-    if (letter.length !== 1) {
-        console.log("Provide a single letter to count");
-        return;
-    }
-    var count = 0;
-    for (var i = 0; i < str.length; i++) {
-        if (str[i].toLowerCase() == letter.toLowerCase()) {
-            count++;
-        }
-    }
-    if (count == 0) {
-        console.log(letter + " does not occur in the string");
-    } else {
-        console.log(letter + " occurs " + count + " times in the string");
-    }
-}
+// function Occurrence(str, letter) {
+//     if (typeof str !== 'string' || typeof letter !== 'string') {
+//         console.log("Invalid input");
+//         return;
+//     }
+//     if (letter.length !== 1) {
+//         console.log("Provide a single letter to count");
+//         return;
+//     }
+//     var count = 0;
+//     for (var i = 0; i < str.length; i++) {
+//         if (str[i].toLowerCase() == letter.toLowerCase()) {
+//             count++;
+//         }
+//     }
+//     if (count == 0) {
+//         console.log(letter + " does not occur in the string");
+//     } else {
+//         console.log(letter + " occurs " + count + " times in the string");
+//     }
+// }
