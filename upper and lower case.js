@@ -1,3 +1,6 @@
+//Write a javascript program to convert first and last characters to uppercase and all others characters to lowercase
+
+
 var x='Hello';
 for(var i=0;i<x.length;i++)
 {
