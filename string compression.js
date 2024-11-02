@@ -5,10 +5,7 @@ string compression, using the counts
 of repeated characters, e.g., input aabcccccaaa becomes a2b1c5a3.
 
 */
-/**
-//  * @param {character[]} chars
-//  * @return {number}
-//  */
+
 
 function compressString(str) {
     if (str.length === 0) 
