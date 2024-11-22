@@ -121,7 +121,6 @@ var catArr = [
     }
 ]
 
-
 // for(var i=0;i<catArr[0].length;i++) ////for nested array
 // {
 //     var e = catArr[0][i];
@@ -129,7 +128,7 @@ var catArr = [
 //     // console.log(e.name);
 //     // console.log(e.url);
 // }
-
+//Susheel 
 for(var i=0;i<catArr.length;i++)
 {
     var e = catArr[i];
