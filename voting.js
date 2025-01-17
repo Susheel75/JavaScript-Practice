@@ -3,7 +3,7 @@
 
 // The if-else statement in JavaScript is used to make decisions in your code. It allows your program to execute different blocks of code depending on whether a given condition is true or false.
 
-// Here's a simple explanation:
+// Here's a simple explanation
 
 // if (condition) {
 //   // This block of code runs if the condition is true
