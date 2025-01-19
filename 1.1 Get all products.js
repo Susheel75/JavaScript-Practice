@@ -18,7 +18,6 @@
 //     console.log(error)
 // })
 
-
 // 1.1.//Get all products: https://fakestoreapi.com/products  (using function)
 function showAllProducts(products)
 {
